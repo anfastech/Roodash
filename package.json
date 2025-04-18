@@ -11,6 +11,8 @@
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "axios": "^1.6.3",
+    "dotenv": "^16.5.0",
+    "front": "file:",
     "micro": "^10.0.1",
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.3",
@@ -19,7 +21,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "stripe": "^14.10.0",
-    "styled-components": "^6.1.6"
+    "styled-components": "^6.1.17"
   },
   "devDependencies": {
     "eslint": "^8.56.0",

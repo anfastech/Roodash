@@ -61,6 +61,15 @@ export default function Featured({product}) {
   function addFeaturedToCart() {
     addProduct(product._id);
   }
+  if (!product) {
+    return (
+      <Bg>
+        <Center>
+          <Title>No featured product available</Title>
+        </Center>
+      </Bg>
+    );
+  }
   return (
     <Bg>
       <Center>
